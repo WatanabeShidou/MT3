@@ -66,7 +66,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 
 	Vecter3 v1{ 1.0f, 3.0f, -5.0f };
 	Vecter3 v2{ 4.0f, -1.0f, 2.0f };
-	float k = { 4.0f };
+	float k = { 4.0f};
 
 	// ウィンドウの×ボタンが押されるまでループ
 	while (Novice::ProcessMessage() == 0) {
